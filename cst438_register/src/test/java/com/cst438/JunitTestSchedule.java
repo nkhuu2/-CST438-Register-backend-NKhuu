@@ -228,5 +228,4 @@ public class JunitTestSchedule {
 			throw new RuntimeException(e);
 		}
 	}
-
 }
