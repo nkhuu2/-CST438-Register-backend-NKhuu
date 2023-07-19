@@ -38,6 +38,7 @@ public class StudentController {
 			student = new Student();
 			student.setName(name);
 			student.setEmail(email);
+			student.setStatusCode(0);
 			
 			studentRepository.save(student);
 			
